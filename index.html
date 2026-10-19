@@ -1,1 +1,626 @@
-Welcome to  Ja Quality Cleaning
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J.A Quality Commercial Cleaning LLC | Professional Cleaning & Flooring — Atlanta, GA</title>
+  <meta name="description" content="Professional cleaning and flooring services in Atlanta and surrounding areas. Floor installation, deep cleaning, office cleaning, and more. Call 404-649-2520.">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="J.A Quality Cleaning — Home">
+      <img src="assets/images/logo.png" alt="J.A Quality Commercial Cleaning LLC logo">
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Our Services</a>
+      <a href="career.html">Career</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <a href="contact.html" class="btn btn-primary nav-cta">Get a Free Quote</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE DRAWER -->
+<div class="nav-drawer" role="dialog" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="services.html">Our Services</a>
+  <a href="career.html">Career</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" aria-label="Hero">
+  <video class="hero-video" autoplay muted loop playsinline poster="assets/images/service-01.jpg">
+    <source src="assets/video/hero-video.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <span class="kicker">Atlanta &amp; Surrounding Areas</span>
+      <h1>Professional Cleaning &amp; Flooring Services</h1>
+      <p>Keeping your workplace spotless, safe, and inviting — so you can focus on what you do best. Trusted by commercial clients across Atlanta.</p>
+      <div class="hero-btns">
+        <a href="contact.html" class="btn btn-accent">Get a Free Quote</a>
+        <a href="services.html" class="play-btn">
+          <span class="icon">▶</span>
+          View Our Services
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WELCOME AUDIO -->
+<audio id="welcome-audio" src="assets/audio/welcome.mp3" preload="none"></audio>
+<div class="audio-bar" role="complementary" aria-label="Welcome audio">
+  <button class="audio-btn" aria-label="Play welcome audio">▶</button>
+  <span>Listen to our welcome message</span>
+  <button class="audio-dismiss" aria-label="Dismiss">✕</button>
+</div>
+
+<!-- STATS BAR -->
+<div class="stats-bar" aria-label="Company statistics">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <div class="number"><span class="count-up" data-target="500" data-suffix="+">500+</span></div>
+        <div class="label">Happy Clients</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-1">
+        <div class="number"><span class="count-up" data-target="15" data-suffix="+">15+</span></div>
+        <div class="label">Years of Experience</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-2">
+        <div class="number"><span class="count-up" data-target="8" data-suffix="">8</span></div>
+        <div class="label">Service Categories</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-3">
+        <div class="number">100%</div>
+        <div class="label">Satisfaction Guarantee</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES OVERVIEW -->
+<section class="section" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="kicker">What We Do</span>
+      <h2 id="services-heading">Our Cleaning &amp; Flooring Services</h2>
+      <p>We offer a full range of professional cleaning and flooring services designed to keep your space looking good, healthy, and inviting.</p>
+    </div>
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <img src="assets/images/service-floor-restoration.jpg" alt="Floor installation and repair service" loading="lazy">
+        <div class="service-card-body">
+          <span class="tag">Flooring</span>
+          <h3>Floor Installation &amp; Repair</h3>
+          <p>Expert tile, vinyl, wood, and laminate floor installation. We handle everything from tear-out to grout cleaning and complete restoration.</p>
+          <a href="services.html" class="btn btn-outline">Learn More</a>
+        </div>
+      </article>
+      <article class="service-card reveal reveal-delay-1">
+        <img src="assets/images/service-office.jpg" alt="Professional office cleaning service" loading="lazy">
+        <div class="service-card-body">
+          <span class="tag">Commercial</span>
+          <h3>Office &amp; Commercial Cleaning</h3>
+          <p>Dependable cleaning services for offices, retail spaces, and commercial environments. Consistent results tailored to your schedule.</p>
+          <a href="services.html" class="btn btn-outline">Learn More</a>
+        </div>
+      </article>
+      <article class="service-card reveal reveal-delay-2">
+        <img src="assets/images/service-deep-cleaning.jpg" alt="Deep cleaning service" loading="lazy">
+        <div class="service-card-body">
+          <span class="tag">Residential</span>
+          <h3>Deep Cleaning Services</h3>
+          <p>Thorough floor scrubbing, carpet and upholstery cleaning, sanitizing high-touch surfaces, and detailed cleaning of hard-to-reach areas.</p>
+          <a href="services.html" class="btn btn-outline">Learn More</a>
+        </div>
+      </article>
+    </div>
+    <div class="text-center mt-8">
+      <a href="services.html" class="btn btn-primary">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT / SPLIT SECTION -->
+<section class="section bg-surface" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="split">
+      <div class="split-media reveal">
+        <img src="assets/images/trust-01.jpg" alt="J.A Quality team at work" loading="lazy">
+        <div class="split-badge">
+          <div class="big">15+</div>
+          <div class="small">Years of Service</div>
+        </div>
+      </div>
+      <div class="split-text reveal reveal-delay-1">
+        <span class="kicker">Who We Are</span>
+        <h2 id="about-heading">Reliable Commercial Cleaning &amp; Flooring You Can Trust</h2>
+        <p>J.A. Quality Commercial Cleaning LLC delivers reliable, detail-driven commercial cleaning and flooring services designed to keep your business looking its best. We focus on consistent results, professional service, and high standards — because a clean workspace speaks for your brand.</p>
+        <div class="features-grid mt-8">
+          <div class="feature-item">
+            <div class="check">✓</div>
+            <div>
+              <h4>Reliable &amp; Professional Team</h4>
+              <p>Trained, background-checked cleaners who show up on time.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="check">✓</div>
+            <div>
+              <h4>Detail-Oriented Cleaning</h4>
+              <p>We focus on the small details that make a big difference.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="check">✓</div>
+            <div>
+              <h4>Customised Cleaning Plans</h4>
+              <p>Tailored services to match your specific needs and schedule.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="check">✓</div>
+            <div>
+              <h4>Satisfaction Guaranteed</h4>
+              <p>If you're not happy, we make it right — no shortcuts.</p>
+            </div>
+          </div>
+        </div>
+        <a href="about.html" class="btn btn-primary mt-8">About Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FLOORING SECTION -->
+<section class="section" aria-labelledby="flooring-heading">
+  <div class="container">
+    <div class="split reverse">
+      <div class="split-text reveal">
+        <span class="kicker">Flooring</span>
+        <h2 id="flooring-heading">Floor Installation &amp; Repair Services</h2>
+        <p>Our professional floor installers are experienced in installing both tile and waterproof flooring. Installation requires exact measurements, even spacing, and proper adhesion — and our teams are experts at getting it right every time.</p>
+        <p>We handle everything from flooring installation and repair to grout cleaning and complete tear-outs. Uneven or poorly installed tiles lead to cracks, lifting, or water damage — issues we prevent before they start.</p>
+        <ul style="margin: 20px 0; display:flex; flex-direction:column; gap:8px;">
+          <li style="display:flex;gap:8px;align-items:center;color:var(--mid);"><span style="color:var(--blue-500);font-weight:700;">✓</span> Tile &amp; Vinyl Flooring Repairs</li>
+          <li style="display:flex;gap:8px;align-items:center;color:var(--mid);"><span style="color:var(--blue-500);font-weight:700;">✓</span> Wood &amp; Laminate Flooring Installation</li>
+          <li style="display:flex;gap:8px;align-items:center;color:var(--mid);"><span style="color:var(--blue-500);font-weight:700;">✓</span> Grout Cleaning &amp; Complete Tear-Outs</li>
+          <li style="display:flex;gap:8px;align-items:center;color:var(--mid);"><span style="color:var(--blue-500);font-weight:700;">✓</span> Kitchen &amp; Bathroom Floor Maintenance</li>
+        </ul>
+        <div style="display:flex;gap:14px;flex-wrap:wrap;">
+          <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+          <a href="services.html" class="btn btn-outline">View More Services</a>
+        </div>
+      </div>
+      <div class="split-media reveal reveal-delay-1">
+        <img src="assets/images/service-floor-restoration.jpg" alt="Professional floor restoration" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION & VISION -->
+<section class="section bg-blue text-white" aria-labelledby="mission-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="kicker" style="color:rgba(255,255,255,.7);">Our Purpose</span>
+      <h2 id="mission-heading" style="color:#fff;">Our Cleaning/Flooring Advantage</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px;">
+      <div class="reveal" style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:32px;">
+        <div style="font-size:2rem;margin-bottom:14px;">🎯</div>
+        <h3 style="color:#fff;margin-bottom:12px;">Our Mission</h3>
+        <p style="color:rgba(255,255,255,.82);">To deliver dependable, high-quality cleaning and flooring services that create clean, healthy, and welcoming environments for every client. We are committed to professionalism, integrity, and attention to detail in every space we serve.</p>
+      </div>
+      <div class="reveal reveal-delay-1" style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:32px;">
+        <div style="font-size:2rem;margin-bottom:14px;">🔭</div>
+        <h3 style="color:#fff;margin-bottom:12px;">Our Vision</h3>
+        <p style="color:rgba(255,255,255,.82);">To become a trusted and leading cleaning and flooring company in Atlanta and surrounding areas, known for reliability, consistency, and excellence. We strive to build long-term relationships by always doing the job right the first time.</p>
+      </div>
+      <div class="reveal reveal-delay-2" style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);border-radius:16px;padding:32px;">
+        <div style="font-size:2rem;margin-bottom:14px;">🤝</div>
+        <h3 style="color:#fff;margin-bottom:12px;">Who We Are</h3>
+        <p style="color:rgba(255,255,255,.82);">A reliable, detail-oriented cleaning service serving residential and commercial clients with professionalism and integrity. We use proven methods, quality products, and careful attention to detail on every job — no shortcuts, no compromises.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEEP CLEANING DETAILS -->
+<section class="section" aria-labelledby="deep-cleaning-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="kicker">Deep Cleaning</span>
+      <h2 id="deep-cleaning-heading">Deep Cleaning Services Include</h2>
+      <p>Our range of activities goes beyond regular cleaning to address hidden grime, allergens, and bacteria.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;">
+      <div class="service-icon-card reveal">
+        <div class="icon-wrap">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <h4>Floor Scrubbing &amp; Polishing</h4>
+        <p style="font-size:.88rem;color:var(--mid);">Thorough floor scrubbing, stripping, and polishing to restore shine and cleanliness.</p>
+      </div>
+      <div class="service-icon-card reveal reveal-delay-1">
+        <div class="icon-wrap">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>
+        </div>
+        <h4>Carpet &amp; Upholstery Cleaning</h4>
+        <p style="font-size:.88rem;color:var(--mid);">Deep carpet and upholstery cleaning for stubborn stains and buildup removal.</p>
+      </div>
+      <div class="service-icon-card reveal reveal-delay-2">
+        <div class="icon-wrap">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <h4>High-Touch Sanitisation</h4>
+        <p style="font-size:.88rem;color:var(--mid);">Light switches, door handles, remote controls, and trash cans sanitised and disinfected.</p>
+      </div>
+      <div class="service-icon-card reveal reveal-delay-3">
+        <div class="icon-wrap">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <h4>Appliance Deep Cleaning</h4>
+        <p style="font-size:.88rem;color:var(--mid);">Dishwashers, washing machines, and appliances thoroughly cleaned to remove grease and dirt.</p>
+      </div>
+      <div class="service-icon-card reveal">
+        <div class="icon-wrap">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <h4>Window Washing</h4>
+        <p style="font-size:.88rem;color:var(--mid);">Windows cleaned inside and out to remove dirt, grime, and water spots.</p>
+      </div>
+      <div class="service-icon-card reveal reveal-delay-1">
+        <div class="icon-wrap">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 102.13-9.36L1 10"/></svg>
+        </div>
+        <h4>Under-Furniture Vacuuming</h4>
+        <p style="font-size:.88rem;color:var(--mid);">Furniture moved to access hard-to-reach areas — removing dust and allergens that accumulate.</p>
+      </div>
+    </div>
+    <div class="text-center mt-8">
+      <a href="contact.html" class="btn btn-primary">Contact Us</a>
+      <a href="services.html" class="btn btn-outline" style="margin-left:12px;">View More Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY TEASER -->
+<section class="section bg-surface" aria-labelledby="gallery-teaser-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="kicker">Our Work</span>
+      <h2 id="gallery-teaser-heading">Our Gallery Speaks Volumes of What We Are Capable of</h2>
+      <p>Our works speak for us. Try us, and you, your company, or organisation will never regret it.</p>
+    </div>
+    <div class="gallery-grid" style="grid-template-columns:repeat(3,1fr);">
+      <div class="gallery-item reveal" data-src="assets/images/gallery-legacy-01.jpg" data-category="cleaning">
+        <img src="assets/images/gallery-legacy-01.jpg" alt="Cleaning Cabinet" loading="lazy">
+        <div class="overlay"><span class="caption">Cleaning Cabinet</span></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-1" data-src="assets/images/gallery-legacy-02.jpg" data-category="flooring">
+        <img src="assets/images/gallery-legacy-02.jpg" alt="Before &amp; After Flooring" loading="lazy">
+        <div class="overlay"><span class="caption">Before &amp; After Flooring</span></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-2" data-src="assets/images/gallery-legacy-03.jpg" data-category="cleaning">
+        <img src="assets/images/gallery-legacy-03.jpg" alt="Cleaning Equipment" loading="lazy">
+        <div class="overlay"><span class="caption">Cleaning Equipment</span></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-3" data-src="assets/images/gallery-legacy-04.jpg" data-category="flooring">
+        <img src="assets/images/gallery-legacy-04.jpg" alt="Perfect Flooring" loading="lazy">
+        <div class="overlay"><span class="caption">Perfect Flooring</span></div>
+      </div>
+      <div class="gallery-item reveal" data-src="assets/images/gallery-legacy-05.jpg" data-category="cleaning">
+        <img src="assets/images/gallery-legacy-05.jpg" alt="Perfect Cleaning" loading="lazy">
+        <div class="overlay"><span class="caption">Perfect Cleaning</span></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-1" data-src="assets/images/gallery-flooring-01.jpg" data-category="flooring">
+        <img src="assets/images/gallery-flooring-01.jpg" alt="Floor Care and Restoration" loading="lazy">
+        <div class="overlay"><span class="caption">Floor Care &amp; Restoration</span></div>
+      </div>
+    </div>
+    <div class="text-center mt-8">
+      <a href="gallery.html" class="btn btn-primary">View Full Gallery</a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section testimonials-section" aria-labelledby="testimonials-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="kicker" style="color:rgba(255,255,255,.7);">Testimonials</span>
+      <h2 id="testimonials-heading" style="color:#fff;">What Our Clients Say</h2>
+    </div>
+    <div class="testimonials-carousel">
+      <div class="testimonials-track">
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"J.A. Quality Commercial Cleaning &amp; Flooring Services turned our mess into a masterpiece — every corner shines and the floors feel brand new. Their punctual, detail-oriented crew consistently delivers spotless results, earning trust. We rave about them and highly recommend."</p>
+            <div class="testimonial-author">
+              <img src="assets/images/testimonial-person.jpg" alt="Miss Joah Due" loading="lazy">
+              <div class="testimonial-author-info">
+                <div class="name">Miss Joah Due</div>
+                <div class="role">Commercial Client</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"J.A. Quality Commercial Cleaning LLC has been a game-changer for our office's flooring needs. Their team expertly replaced our broken floors with precision and care, leaving our space looking brand new. I strongly recommend them for their professionalism, efficiency, and top-notch quality."</p>
+            <div class="testimonial-author">
+              <img src="assets/images/about-09.jpg" alt="Winifred" loading="lazy">
+              <div class="testimonial-author-info">
+                <div class="name">Winifred</div>
+                <div class="role">Office Manager</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"J.A. Quality Commercial Cleaning LLC's reliable service and consistent quality make them a go-to recommendation for anyone needing a spotless, polished environment. If you want a space that looks and feels revitalised, J.A. Quality Commercial Cleaning &amp; Flooring Services is the name I trust."</p>
+            <div class="testimonial-author">
+              <img src="assets/images/about-01.jpg" alt="Grey Jane" loading="lazy">
+              <div class="testimonial-author-info">
+                <div class="name">Grey Jane</div>
+                <div class="role">Satisfied Client</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"I love J.A. Quality Commercial Cleaning &amp; Flooring Services — their blue-shirted team arrives on time, works with meticulous detail, and leaves floors gleaming. Highly recommended for anyone seeking reliable, top-quality cleaning and flooring."</p>
+            <div class="testimonial-author">
+              <img src="assets/images/about-02.jpg" alt="Jessica" loading="lazy">
+              <div class="testimonial-author-info">
+                <div class="name">Jessica</div>
+                <div class="role">Residential Client</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"They transformed our floors from dull to dazzling! It's no wonder they're highly recommended for any commercial flooring needs. I highly recommend J.A. Quality Commercial Cleaning LLC — they're simply the best in the business."</p>
+            <div class="testimonial-author">
+              <img src="assets/images/about-03.jpg" alt="Joan Peters" loading="lazy">
+              <div class="testimonial-author-info">
+                <div class="name">Joan Peters</div>
+                <div class="role">Business Owner</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-btn prev" aria-label="Previous testimonial">&#8592;</button>
+      <div class="carousel-dots">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <button class="carousel-btn next" aria-label="Next testimonial">&#8594;</button>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" aria-labelledby="faq-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="kicker">FAQs</span>
+      <h2 id="faq-heading">Frequently Asked Cleaning &amp; Flooring Questions</h2>
+      <p>Understanding the basics of professional cleaning services can save you time and stress.</p>
+    </div>
+    <div style="max-width:800px;margin:0 auto;">
+
+      <div class="accordion-item reveal">
+        <button class="accordion-btn">
+          What types of cleaning services are available?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-panel">
+          <p>As a professional cleaning company, we offer a range of services including:</p>
+          <ul>
+            <li><strong>Standard cleaning:</strong> Regular dusting, vacuuming, mopping, and surface wiping.</li>
+            <li><strong>Deep cleaning:</strong> Intensive cleaning of hard-to-reach areas, appliances, and fixtures.</li>
+            <li><strong>Move-in/move-out cleaning:</strong> Thorough cleaning to prepare a property for new occupants.</li>
+            <li><strong>Specialty cleaning:</strong> Carpet cleaning, window washing, or upholstery care.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item reveal">
+        <button class="accordion-btn">
+          How do I prepare my home or business for a cleaning appointment?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-panel">
+          <ul>
+            <li><strong>Declutter surfaces:</strong> Clear countertops, desks, and floors to allow easy access.</li>
+            <li><strong>Secure valuables:</strong> Store important documents and valuables safely.</li>
+            <li><strong>Communicate priorities:</strong> Let the cleaning team know if there are specific areas needing special attention.</li>
+            <li><strong>Provide access:</strong> Ensure the cleaners can enter your property easily.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item reveal">
+        <button class="accordion-btn">
+          Can I trust cleaning professionals in my home or business?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-panel">
+          <p>Trust is our top priority. J.A. Quality addresses this through:</p>
+          <ul>
+            <li><strong>Background checks:</strong> All employees are thoroughly screened.</li>
+            <li><strong>Training:</strong> Ongoing education on cleaning techniques and customer service.</li>
+            <li><strong>Insurance:</strong> We carry liability insurance to protect clients and workers.</li>
+            <li><strong>References and reviews:</strong> Transparent testimonials from satisfied customers.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item reveal">
+        <button class="accordion-btn">
+          What are the most popular types of flooring?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-panel">
+          <ul>
+            <li><strong>Hardwood:</strong> Timeless beauty and durability in many species and finishes.</li>
+            <li><strong>Laminate:</strong> Mimics wood or stone at a lower cost; durable and easy to install.</li>
+            <li><strong>Vinyl:</strong> Versatile, water-resistant, available in planks, tiles, and sheets.</li>
+            <li><strong>Tile:</strong> Ideal for high-moisture areas like bathrooms and kitchens.</li>
+            <li><strong>Carpet:</strong> Adds warmth and comfort to bedrooms and living areas.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="accordion-item reveal">
+        <button class="accordion-btn">
+          How often should I schedule cleaning services?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-panel">
+          <ul>
+            <li><strong>Weekly or biweekly:</strong> Ideal for busy households or high-traffic businesses.</li>
+            <li><strong>Monthly:</strong> Suitable for less frequent maintenance or vacation homes.</li>
+            <li><strong>One-time or special occasions:</strong> For deep cleans or event preparation.</li>
+          </ul>
+          <p style="margin-top:10px;">Regular cleaning helps maintain a healthy environment and prolongs the life of furnishings and surfaces.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item reveal">
+        <button class="accordion-btn">
+          How long does flooring installation take?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-panel">
+          <p>Installation time depends on several factors: material type, room size, preparation work needed, and installation method. On average, a professional installer can complete a standard room (200–300 sq ft) in 1–3 days. Complex patterns or multiple rooms may extend the timeline.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" aria-labelledby="cta-heading">
+  <div class="container">
+    <h2 id="cta-heading" class="reveal">Ready for a Spotless Space?</h2>
+    <p class="reveal reveal-delay-1">Get a free, no-obligation quote today. We serve Atlanta and surrounding areas.</p>
+    <div class="cta-btns reveal reveal-delay-2">
+      <a href="contact.html" class="btn btn-accent">Get a Free Quote</a>
+      <a href="tel:4046492520" class="btn btn-white">Call 404-649-2520</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/images/logo-footer.png" alt="J.A Quality Commercial Cleaning LLC">
+        <p>J.A Quality Commercial Cleaning LLC provides reliable, high-quality cleaning services and flooring for commercial spaces. Our professional team is committed to creating clean, healthy, and welcoming environments you can trust.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://wa.me/14046492520" class="social-link" aria-label="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="career.html">Our Career</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="services.html">Floor Installation</a></li>
+          <li><a href="services.html">Floor Care &amp; Restoration</a></li>
+          <li><a href="services.html">Office Cleaning</a></li>
+          <li><a href="services.html">Deep Cleaning</a></li>
+          <li><a href="services.html">Move-In/Out Cleaning</a></li>
+          <li><a href="services.html">Post-Construction Cleaning</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <div class="footer-contact-item">
+          <span class="ico">📍</span>
+          <span>1231 Vienna Court,<br>Hampton, GA 30228</span>
+        </div>
+        <div class="footer-contact-item">
+          <span class="ico">📞</span>
+          <span><a href="tel:4046492520">404-649-2520</a><br><a href="tel:8622798758">862-279-8758</a></span>
+        </div>
+        <div class="footer-contact-item">
+          <span class="ico">✉️</span>
+          <span><a href="mailto:info@jaqualitycleaning.com">info@jaqualitycleaning.com</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 J.A Quality Commercial Cleaning LLC. All rights reserved.</span>
+    <a href="#">Privacy Statement</a>
+    <a href="#">Terms of Use</a>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" role="dialog" aria-label="Image lightbox" aria-modal="true">
+  <button class="lightbox-close" aria-label="Close lightbox">✕</button>
+  <img src="" alt="">
+</div>
+
+<!-- BACK TO TOP -->
+<button class="back-top" aria-label="Back to top">↑</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
